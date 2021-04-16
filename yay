@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YAY!</title>
+    <link href="yay.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>YAY, WE ARE UP AND RUNNING!</h1>
+<figure>
+    <img src="baby.jpeg">
+</figure>
+<p>Feel free to go back to the <a href="index.html">homepage!</a></p>
+</body>
+</html>
+</body>
+</html>
