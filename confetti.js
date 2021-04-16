@@ -1,7 +1,7 @@
 let canvas = document.getElementById('confetti');
 
-canvas.width = 640;
-canvas.height = 480;
+canvas.width = 600;
+canvas.height = 180;
 
 let ctx = canvas.getContext('2d');
 let pieces = [];
@@ -46,6 +46,9 @@ function draw () {
         ctx.save();
 
         ctx.fillStyle = p.color;
+         ctx.font = "30px Verdana";
+
+        ctx.fillText("YAY, WE ARE UP AND RUNNING!", 10, 90);
 
         ctx.translate(p.x + p.size / 2, p.y + p.size / 2);
         ctx.rotate(p.rotation);
