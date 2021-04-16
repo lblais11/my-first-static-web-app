@@ -1,21 +1,39 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+h1 {font-weight: bold;
+    font-family: "Bookman Old Style" serif;
+    color: midnightblue;
+    border: solid 2px black;
+    width: 500px;
+    text-align: center;
+}
+h2 {font-weight: bold;
+    font-family: "Bookman Old Style" serif;
+    color: midnightblue;
+    border: solid 2px midnightblue;
+    width: 150px;
+    text-align: center;
+}
+p {font-family: "Bookman Old Style" serif;
+    color: black;
+    font-size: 18px;
+
+}
+body {background-image: url("/images/pink.jpg");
+    background-size: cover;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+.solid {border-style: solid;
+        border-width: 2px;
+        border-color: midnightblue;
+        padding: 2px;
 }
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+blockquote {
+    background-color: orange;
+    color: ghostwhite;
+    text-align: center;
 }
-
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+table, td, th, tr {border-spacing: 3px;
+    border:2px solid midnightblue;
+    background-color: white;
+    text-align: center;
+    padding: 1px;
 }
