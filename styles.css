@@ -12,6 +12,14 @@ h2 {font-weight: bold;
     width: 150px;
     text-align: center;
 }
+h3 {font-weight: bold;
+    font-family: "Bookman Old Style" serif;
+    color: midnightblue;
+    border: solid 2px midnightblue;
+    width: 400px;
+    text-align: center;
+
+}
 p {font-family: "Bookman Old Style" serif;
     color: black;
     font-size: 18px;
