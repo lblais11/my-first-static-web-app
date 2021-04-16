@@ -17,7 +17,7 @@ p {font-family: "Bookman Old Style" serif;
     font-size: 18px;
 
 }
-body {background-image: url("/images/pink.jpg");
+body {background-image: url("pink.jpg");
     background-size: cover;
 }
 
